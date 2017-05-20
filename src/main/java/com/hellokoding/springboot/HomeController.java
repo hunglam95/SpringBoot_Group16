@@ -8,9 +8,5 @@ public class HomeController {
     @RequestMapping("/home")
     public String home() {
         return "home";
-    }
-    @RequestMapping("/edit")
-    public String body() {
-        return "edit";
-    }
+    }    
 }
